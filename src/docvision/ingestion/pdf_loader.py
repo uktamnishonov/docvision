@@ -33,6 +33,7 @@ class PDFLoader:
 
         return documents
 
+
 # Uncomment for quick testing
 # if __name__ == "__main__":
 #     loader = PDFLoader()
