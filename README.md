@@ -105,7 +105,3 @@ black src/ tests/
 ## License
 
 MIT License
-
----
-
-**Built for intelligent document search 🚀**
