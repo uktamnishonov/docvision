@@ -1,0 +1,9 @@
+[server]
+# Disable file watcher to prevent crashes on macOS
+fileWatcherType = "none"
+runOnSave = false
+
+[runner]
+# Prevent aggressive magic imports that can trigger segfaults
+magicEnabled = false
+fastReruns = false

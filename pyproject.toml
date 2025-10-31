@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "legalgpt"
+version = "0.1.0"
+description = "RAG-based legal assistant"
+requires-python = ">=3.10"
+dependencies = [
+    "sentence-transformers>=2.2.2",
+    "faiss-cpu>=1.7.4",
+    "pypdf>=3.17.4",
+    "groq>=0.4.1",
+    "python-dotenv>=1.0.0",
+    "streamlit>=1.29.0",
+    "elasticsearch>=8.11.0",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
