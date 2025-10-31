@@ -4,7 +4,6 @@ from typing import List, Dict
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
-import os
 
 
 class VectorStore:

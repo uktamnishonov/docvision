@@ -1,7 +1,6 @@
 """Main RAG pipeline orchestration."""
 
-from typing import List, Dict, Optional
-from pathlib import Path
+from typing import Dict
 
 from docvision.config import settings
 from docvision.ingestion import PDFLoader, TextChunker

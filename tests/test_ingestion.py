@@ -1,4 +1,3 @@
-import pytest
 from docvision.ingestion import TextChunker
 
 

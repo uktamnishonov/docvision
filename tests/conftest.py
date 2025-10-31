@@ -1,5 +1,4 @@
 import os
-import pytest
 from pydantic_settings import BaseSettings
 
 # Set dummy environment variables before defining Settings
